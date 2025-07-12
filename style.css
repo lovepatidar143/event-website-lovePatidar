@@ -197,3 +197,16 @@ footer {
 .gallery-nav.right {
   right: 0;
 }
+
+
+
+/* guest 
+ */
+ .guest{
+    height: 200px;
+ }
+
+ .sessiom:hover{
+  background-color: aquamarine !important;
+
+ }
