@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 // Countdown Timer to 13 July 2025, 5 PM
-const eventDate = new Date("July 13, 2025 17:00:00").getTime();
+const eventDate = new Date("July 17, 2025 17:00:00").getTime();
 const countdown = setInterval(() => {
   const now = new Date().getTime();
   const timeLeft = eventDate - now;
