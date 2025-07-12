@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ProdCon 2025 - India’s premier student-run Product Strategy & Consulting event at MANIT Bhopal. Register now!">
   <title>ProdCon 2025 - MANIT Bhopal</title>
 
   <!-- Fonts & CSS -->
@@ -17,7 +18,7 @@
   <!-- Animation Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.7.4/build/player/lottie.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
   <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
 </head>
@@ -25,7 +26,7 @@
 
   <!-- Splash Intro -->
   <div id="introSplash">
-    <h1 class="splash-title">ProdCon 2025</h1>
+    <h1 class="splash-title">ProdCon <strong class="text-warning">2025</strong></h1>
   </div>
 
   <!-- Preloader -->
@@ -58,21 +59,26 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero-section text-white d-flex align-items-center justify-content-center text-center py-4">
-    <!-- <div id="particles-js"></div> -->
+
+
+
+
+<section id="home" class="hero-section text-white d-flex align-items-center justify-content-center text-center py-4">
+    <div id="particles-js"></div>
     <!-- this is animation  -->
 
      <iframe src="https://lottie.host/embed/5a51e851-e186-4c5e-bb86-18c7f2aa6939/rU2QSxCz2v.lottie" class="hero-animation"></iframe>
 
-
      <!-- animation ends -->
     <div class="hero-content container position-relative z-1 col-12 col-md-6" data-aos="fade-up">
-      <!-- <h1 class="display-4">Welcome to <span id="typed-text"></span></h1> -->
+      <h1 class="display-4">Welcome to <span id="typed-text"></span></h1>
       <p class="lead">India's Premier Product Consulting Event at MANIT Bhopal</p>
       <a href="#register" class="btn btn-outline-light btn-lg mt-3">Register Now</a>
     </div>
   </section>
+
+   <!-- Countdown Timer -->
+<div id="countdown" class="fs-4 mt-3 text-warning text-center"></div>
 
   <!-- About Section -->
   <section id="about" class="py-5 bg-light">
@@ -254,6 +260,9 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
   <script>
+  AOS.init();
+</script>
+  <!-- <script>
     new Typed('#typed-text', {
       strings: ['ProdCon 2025', 'Product Strategy', 'Consulting Excellence', 'Innovation at Scale'],
       typeSpeed: 50,
@@ -264,6 +273,6 @@
     particlesJS.load('particles-js', 'assets/particles.json', function() {
       console.log('particles.js config loaded');
     });
-  </script>
+  </script> -->
 </body>
 </html>

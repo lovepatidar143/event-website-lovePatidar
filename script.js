@@ -54,15 +54,16 @@ window.addEventListener("DOMContentLoaded", () => {
   if (typedTarget && typeof Typed !== "undefined") {
     const options = {
       strings: [
-        "<span class=' fw-bold'>ProdCon 2025</span>",
-        "<span class=' fw-bold'>Product Strategy</span>",
-        "<span class=' fw-bold'>Consulting Excellence</span>",
-        "<span class=' fw-bold'>Innovation at Scale</span>"
+        "<span class=' fw-bold text-warning'>ProdCon 2025</span>",
+        "<span class=' fw-bold text-warning'>Product Strategy</span>",
+        "<span class=' fw-bold text-warning'>Consulting Excellence</span>"
+
+       
       ],
-      typeSpeed: 900,
-      backSpeed: 1000,
-      startDelay: 9000,
-      backDelay: 9000,
+      typeSpeed: 100,
+      backSpeed: 100,
+      startDelay: 90,
+      backDelay: 2000,
       loop: true,
 
     //   showCursor: true,

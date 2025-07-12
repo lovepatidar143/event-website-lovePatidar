@@ -197,7 +197,47 @@ footer {
 .gallery-nav.right {
   right: 0;
 }
+#countdown {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hero-animation-container {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+.hero-animation {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 935px) {
+  .hero-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+}
 
 
 /* guest 
@@ -210,3 +250,4 @@ footer {
   background-color: aquamarine !important;
 
  }
+
